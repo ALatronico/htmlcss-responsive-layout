@@ -59,3 +59,41 @@
   }
 }
 
+/*********DESKTOP*********/
+
+@media screen and (min-width: 993px){
+  .recipe-title{
+    font-size: 1.5rem;
+  }
+
+  .quick-notes ul{
+    display: block;
+  }
+
+  .recipe-card{
+    display: flex;
+  }
+
+  .recipe-video{
+    width: 60%;
+    max-height: 425px;
+  }
+
+  .recipe-info{
+    width: 40%;
+  }
+
+  .recipe-info .quick-notes li{
+    display: block;
+    width: 100%;
+  }
+
+  .social-networks .label{
+    display: inline;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+  }
+}

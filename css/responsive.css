@@ -1,1 +1,19 @@
 /* Soluzione qui */
+/*********MOBILE*********/
+
+@media screen and (min-width: 576px) {
+  p.clearfix img{
+    float: left;
+    margin: 10px 10px 10px 0px;
+  }  
+
+  .social-networks button{
+    flex-basis: 20%;
+  }
+
+  footer{
+    text-align: left;
+  }
+
+  
+}
